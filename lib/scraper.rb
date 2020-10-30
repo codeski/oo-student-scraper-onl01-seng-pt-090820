@@ -40,10 +40,10 @@ class Scraper
       if media.attr('src') == "../assets/img/linkedin-icon.png"
         hash[:linkedin] = social_media.css("a").attr('href').value
       end
-      if social_media.css(".social-icon").attr('src').value == "../assets/img/github-icon.png"
+      if media.attr('src') == "../assets/img/github-icon.png"
         hash[:github] = social_media.css("a").attr('href').value
       end
-      if social_media.css(".social-icon").attr('src').value == "../assets/img/rss-icon.png"
+      if media.attr('src') == "../assets/img/rss-icon.png"
         hash[:blog] = social_media.css("a").attr('href').value
       end
       hash
