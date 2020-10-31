@@ -7,14 +7,15 @@ class Student
   def initialize(student_hash)
     @name = student_hash[:name]
     @location = student_hash[:location]
-    # @twitter = student_hash[:twitter]
-    
-    # binding.pry
     @@all << self
   end
 
   def self.create_from_collection(students_array)
-    
+    students_array.each do |student|
+      binding.pry
+      student = Student.new
+      student.name = students_arry
+    end
   end
 
   def add_student_attributes(attributes_hash)
