@@ -14,9 +14,9 @@ class Student
     students_array.each do |student|
       # binding.pry
       student = Student.new({student[:name], student[:location]})
-      student.name = student[:name]
-      student.location = student[:location]
-      @@all << self
+      # student.name = student[:name]
+      # student.location = student[:location]
+      # @@all << self
     end
   end
 
