@@ -45,8 +45,8 @@ class Scraper
       if media.attr('src') == "../assets/img/rss-icon.png"
         hash[:blog] = media.attr('href')
       end 
-      hash
     end
+    hash
   end
       
       
