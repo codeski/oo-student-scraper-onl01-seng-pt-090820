@@ -13,7 +13,7 @@ class Student
   def self.create_from_collection(students_array)
     students_array.each do |student|
       # binding.pry
-      student = Student.new({student[:name], student[:location]})
+      new_student = Student.new({student[:name], student[:location]})
       # student.name = student[:name]
       # student.location = student[:location]
       # @@all << self
