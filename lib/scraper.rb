@@ -34,7 +34,7 @@ class Scraper
     social_media = doc.css(".vitals-container .social-icon-container")
     social_media.css("a").each do |media| 
       binding.pry
-      if media.attr('src') == "../assets/img/twitter-icon.png"
+      if media.cssattr('src') == "../assets/img/twitter-icon.png"
         hash[:twitter] = media.attr('href')
       end 
       if media.attr('src') == "../assets/img/linkin-icon.png"
