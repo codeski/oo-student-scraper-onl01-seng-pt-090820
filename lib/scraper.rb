@@ -47,6 +47,7 @@ class Scraper
       end 
       hash
     end
+  end
       
       
       
@@ -68,10 +69,10 @@ class Scraper
       # if media.attr('src') == "../assets/img/rss-icon.png"
       #   hash[:blog] = social_media.css("a").attr('href').value
       # end
-    end 
+  #   end 
     
-    hash
-  end
+  #   hash
+  # end
   
       #   if social_media.css(".social-icon").attr('src').value == "../assets/img/twitter-icon.png"
       #   hash[:twitter] = social_media.css("a").attr('href').value
