@@ -32,7 +32,7 @@ class Scraper
     hash[:profile_quote] = doc.css(".vitals-text-container .profile-quote").text
     
     social_media = doc.css(".vitals-container .social-icon-container")
-    social_media.css(".social-icon").each do |media| 
+    social_media.css("a").each do |media| 
       binding.pry
       if media.attr('src') == "../assets/img/twitter-icon.png"
         hash[:twitter] = social_media.css("a").attr('href').value
