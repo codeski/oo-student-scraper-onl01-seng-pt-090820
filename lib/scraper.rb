@@ -37,7 +37,7 @@ class Scraper
       if media.css(".social-icon").attr('src').value == "../assets/img/twitter-icon.png"
         hash[:twitter] = media.attr('href')
       end 
-      if media.css(".social-icon").attr('src').value == "../assets/img/linkin-icon.png"
+      if media.css(".social-icon").attr('src').value == "../assets/img/linkedin-icon.png"
         hash[:linkedin] = media.attr('href')
       end 
       if media.css(".social-icon").attr('src').value == "../assets/img/github-icon.png"
