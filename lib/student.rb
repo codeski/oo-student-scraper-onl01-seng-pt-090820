@@ -14,7 +14,7 @@ class Student
     students_array.each do |student|
       binding.pry
       student = Student.new
-      student.name = students_arry
+      student.name = hash[:name]
     end
   end
 
