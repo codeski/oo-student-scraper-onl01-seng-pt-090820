@@ -6,7 +6,8 @@ class Student
 
   def initialize(student_hash)
     @name = student_hash[:name]
-    binding.pry
+    
+    # binding.pry
     @@all << self
   end
 
