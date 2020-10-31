@@ -51,71 +51,7 @@ class Scraper
   end
   
 end
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      # if media.attr('src') == "../assets/img/twitter-icon.png"
-      #   hash[:twitter] = social_media.css("a").attr('href').value
-      # end
-      # if media.attr('src') == "../assets/img/linkedin-icon.png"
-      #   hash[:linkedin] = social_media.css("a").attr('href').value
-      # end
-      # if media.attr('src') == "../assets/img/github-icon.png"
-      #   hash[:github] = social_media.css("a").attr('href').value
-      # end
-      # if media.attr('src') == "../assets/img/rss-icon.png"
-      #   hash[:blog] = social_media.css("a").attr('href').value
-      # end
-  #   end 
-    
-  #   hash
-  # end
-  
-      #   if social_media.css(".social-icon").attr('src').value == "../assets/img/twitter-icon.png"
-      #   hash[:twitter] = social_media.css("a").attr('href').value
-      # end
-      # if social_media.css(".social-icon").attr('src').value == "../assets/img/linkedin-icon.png"
-      #   hash[:linkedin] = social_media.css("a").attr('href').value
-      # end
-      # if social_media.css(".social-icon").attr('src').value == "../assets/img/github-icon.png"
-      #   hash[:github] = social_media.css("a").attr('href').value
-      # end
-      # if social_media.css(".social-icon").attr('src').value == "../assets/img/rss-icon.png"
-      #   hash[:blog] = social_media.css("a").attr('href').value
-      # end
-      # hash
-    
-    
-    # if doc.css(".vitals-container .social-icon-container .social-icon").attr('src') == ../assets/img/twitter-icon.png
-    # hash[:twitter] = doc.css(.social-icon-container a).attr('href')
-    # end
-    # if doc.css(".vitals-container .social-icon-container a").search("twitter")
-    #   )hash[:twitter] = doc.css(".vitals-container .social-icon-container a")[0].attr('href'
-    # end
-    # if doc.css(".vitals-container .social-icon-container a").include?("linkedin")
-    #   hash[:linkedin] = doc.css(".vitals-container .social-icon-container a")[1].attr('href')
-    # end
-    # if doc.css(".vitals-container .social-icon-container a").include?("github")
-    #   hash[:github] = doc.css(".vitals-container .social-icon-container a")[2].attr('href')
-    # end
-    # if doc.css(".vitals-container .social-icon-container a")
-    #   hash[:blog] = doc.css(".vitals-container .social-icon-container a")[3].attr('href')
-    # end
-    
-    
-    # binding.pry
-    
-    
-    # hash
-    
-    
-  # end
 
-# end
+    
+
 
