@@ -33,19 +33,27 @@ class Scraper
     
     social_media = doc.css(".vitals-container .social-icon-container")
     social_media.css("a").each do |media| 
-      binding.pry
-      if media.attr('src') == "../assets/img/twitter-icon.png"
+     if media.attr('src') == "../assets/img/twitter-icon.png"
         hash[:twitter] = social_media.css("a").attr('href').value
-      end
-      if media.attr('src') == "../assets/img/linkedin-icon.png"
-        hash[:linkedin] = social_media.css("a").attr('href').value
-      end
-      if media.attr('src') == "../assets/img/github-icon.png"
-        hash[:github] = social_media.css("a").attr('href').value
-      end
-      if media.attr('src') == "../assets/img/rss-icon.png"
-        hash[:blog] = social_media.css("a").attr('href').value
-      end
+      
+      
+      
+      
+      
+      
+      
+      # if media.attr('src') == "../assets/img/twitter-icon.png"
+      #   hash[:twitter] = social_media.css("a").attr('href').value
+      # end
+      # if media.attr('src') == "../assets/img/linkedin-icon.png"
+      #   hash[:linkedin] = social_media.css("a").attr('href').value
+      # end
+      # if media.attr('src') == "../assets/img/github-icon.png"
+      #   hash[:github] = social_media.css("a").attr('href').value
+      # end
+      # if media.attr('src') == "../assets/img/rss-icon.png"
+      #   hash[:blog] = social_media.css("a").attr('href').value
+      # end
     end 
     
     hash
