@@ -42,9 +42,12 @@ class Scraper
       if media.attr('src') == "../assets/img/github-icon.png"
         hash[:github] = media.attr('href')
       end 
-      if media.attr('src') == "../assets/img/linkin-icon.png"
-        hash[:linkin] = media.attr('href')
+      if media.attr('src') == "../assets/img/rss-icon.png"
+        hash[:blog] = media.attr('href')
       end 
+      hash
+    end
+      
       
       
       
